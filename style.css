@@ -1,0 +1,21 @@
+body {font-family: Arial, sans-serif;}
+  
+h1 {text-align: center;}
+  
+.todo-form {display: flex;justify-content: center;}
+  
+.todo-form input {width: 50%;padding: 12px 20px;margin: 8px 0;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;}
+  
+.todo-form button {width: 20%;background-color: #4caf50;color: white;padding: 14px 20px;margin: 8px 0;border: none;border-radius: 4px;cursor: pointer;}
+  
+.todo-list {padding: 12px 20px; margin: 8px 0;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;justify-content: center;}
+.todo-list .result{width: 100%;}
+  
+.todo-list ul li {display: flex;background: #f1f1f1f1;padding: 5px;margin-bottom: 5px;justify-content: center;}
+  
+.todo-list ul li .word {width: 100%;}
+.todo-list ul li .meaning {width: 100%;}
+.todo-list ul li a {text-decoration: none; display: block; padding: 12px 20px;margin: 8px 0;; border-radius: 5px; color: red;}
+.todo-list {display: flex;}
+.word, .meaning { width: 50%;padding: 12px 20px;margin: 8px 0;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px}
+  
